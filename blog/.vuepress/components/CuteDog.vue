@@ -1,19 +1,26 @@
 <template>
-  <img :src="dogImg" :alt="dogImg == null ? 'Loading...' : 'A Cute Dog'">
+<div class="dog-img">
+  <button v-if="success" @click="getDog" >Load Another!</button> <br>
+  <img v-if="success" :src="dogImg" :alt="dogImg == null ? 'Loading...' : 'A Cute Dog'">
+  <div v-else>LOADING</div>
+</div>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      dogImg: null
+      dogImg: null,
+      success: false
     }
   },
   methods:{
     getDog() {
+      this.success = false;
       fetch("https://dog.ceo/api/breeds/image/random")
       .then(res => res.json()).then(data => {
-        if (data.status == "success") {
+        this.success = data.status == "success";
+        if (this.success) {
           this.dogImg = data.message
         }
       })
