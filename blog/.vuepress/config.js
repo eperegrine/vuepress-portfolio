@@ -42,6 +42,10 @@ module.exports = {
         link: '/tag/',
         exact: true
       },
+      {
+        text: 'Contact',
+        link: '/contact.html',
+      },
     ],
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#footer

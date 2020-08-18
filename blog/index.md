@@ -8,6 +8,8 @@ Check out some of my cool projects [here](/projects)!
 
 Or for my writings check out [my blog](/blog)
 
+If you want to get in touch you can [contact me](/contact)
+
 ## Cute random dog
 
 I love dogs! So here, have a picture of a cute one!
