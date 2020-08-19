@@ -1,7 +1,7 @@
 <template>
 <div class="dog-img">
   <button v-if="success" @click="getDog" >Load Another!</button> <br>
-  <img v-if="success" :src="dogImg" :alt="dogImg == null ? 'Loading...' : 'A Cute Dog'">
+  <img class="dog-img" v-if="success" :src="dogImg" :alt="dogImg == null ? 'Loading...' : 'A Cute Dog'">
   <div v-else>LOADING</div>
 </div>
 </template>
@@ -33,5 +33,7 @@ export default {
 </script>
 
 <style>
-
+.dog-img {
+  max-height: 500em;
+}
 </style>
