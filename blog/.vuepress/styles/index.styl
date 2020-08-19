@@ -3,6 +3,8 @@
  *
  * ref：https://v1.vuepress.vuejs.org/config/#index-styl
  */
+@import 'skeleton.styl'
+@import 'navbar.styl'
 
 .home .hero img
   max-width 450px!important
@@ -10,8 +12,15 @@
 .center-text
   text-align: center
 
+.blog-tags
+  .blog-tag
+    background-color: white;
+    color: $accentColor;
+    border-color: $accentColor;
+    &:hover
+      background-color: $accentColor;
+      color: white !important;
+      box-shadow: none;
+
 *
   font-family: Raleway,HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif !important
-
-@import 'skeleton.styl'
-@import 'navbar.styl'

@@ -60,6 +60,14 @@ module.exports = {
           type: 'twitter',
           link: 'https://twitter.com/emily_peregrine',
         },
+        {
+          type: 'linkedin',
+          link: 'https://www.linkedin.com/in/emily-peregrine/'
+        }, 
+        {
+          type: 'mail',
+          link: '/contact.html'
+        }
       ],
       copyright: [
         {
