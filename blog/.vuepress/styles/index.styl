@@ -25,7 +25,7 @@
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #1eaedb;
+  background-color: $accentColor;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -33,7 +33,7 @@
   transition: all 0.3s ease-in-out 0s;
 }
 .nav-item:hover:before {
-  color: #1eaedb;
+  color: $accentColor;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -48,22 +48,30 @@
   transition: all 0.3s ease-in-out 0s;
 }
 .nav-item:hover > a {
-  color: #1eaedb;
+  color: $accentColor;
 }
 
 .home-link {
   color: #555 !important;
   &:hover {
-    color: #1eaedb !important;
+    color: $accentColor !important;
   }
 }
 
 .router-link-active {
-  color: #1eaedb !important
+  color: $accentColor !important
   &.home-link {
     color: #555 !important;
   }
 }
+
+#header
+  box-shadow: none;
+  border-bottom: 1px solid #eee;
+  &:hover
+    box-shadow: none;
+    border-bottom: 1px solid #eee;
+    //box-shadow:  0px 0px 20px 0px rgba(0,0,0,0.24);
 
 *
   font-family: Raleway,HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif !important
