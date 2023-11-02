@@ -71,7 +71,7 @@ module.exports = {
       ],
       copyright: [
         {
-          text: 'MIT Licensed | Copyright © 2020-present Emily Peregrine',
+          text: 'MIT Licensed | Copyright © 2023 Emily Peregrine',
           link: '',
         },
       ],

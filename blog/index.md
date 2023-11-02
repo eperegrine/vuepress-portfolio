@@ -1,11 +1,8 @@
-# WORK IN PROGRESS
-This site is a work in progress! The content and the design is not yet finished, my main site at the moment is [emilyperegrine.com/](http://emilyperegrine.com/), although i have not updated it for a while
-
 # Welcome
 
 Hi! My name is Emily and this is my website, it is built with [vuepress](https://vuepress.vuejs.org/).
 
-I'm a software developer in the UK. I'm currently doing a degree apprenticeship in software development at [NHS Digital](https://digital.nhs.uk/)
+I'm a software developer in the UK. I have just completed my degree apprenticehsip with a final grade of 2:1. I am working at [NHS Digital](https://digital.nhs.uk/)
 
 Check out some of my cool projects [here](/projects)!
 

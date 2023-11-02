@@ -15,7 +15,7 @@ How ya doing?
 
 # Vue Component
 
-Here's a vue componenet that has some fun things it:
+Here's a vue counter componenet that has some fun things it:
 
 <hello-world />
 
